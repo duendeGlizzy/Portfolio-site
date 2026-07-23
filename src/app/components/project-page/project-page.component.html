@@ -1,24 +1,25 @@
 <div class="container py-5">
-  <h2 class="text-center mb-4 fw-bold">Projects</h2>
+  <!-- Portfolio Projects Header -->
+  <h2 class="text-center mb-4 fw-bold">Featured Projects</h2>
 
   <div class="row g-4 justify-content-center">
 
-    <!-- Project Card -->
+    <!-- Project Card: E-Commerce -->
     <div class="col-md-4">
       <div class="card h-100 shadow-sm border-0">
         <div id="carouselEcom" class="carousel slide">
           <div class="carousel-inner">
             <div class="carousel-item active">
-              <img src="../../../assets/ecom.png" class="carousel-image d-block w-100 card-img-top" alt="...">
+              <img src="../../../assets/ecom.png" class="carousel-image d-block w-100 card-img-top" alt="E-Commerce Screenshot 1">
             </div>
             <div class="carousel-item">
-              <img src="../../../assets/ecomTwo.png" class="carousel-image d-block w-100 card-img-top" alt="...">
+              <img src="../../../assets/ecomTwo.png" class="carousel-image d-block w-100 card-img-top" alt="E-Commerce Screenshot 2">
             </div>
             <div class="carousel-item">
-              <img src="../../../assets/ecomThree.png" class="carousel-image d-block w-100 card-img-top" alt="...">
+              <img src="../../../assets/ecomThree.png" class="carousel-image d-block w-100 card-img-top" alt="E-Commerce Screenshot 3">
             </div>
             <div class="carousel-item">
-              <img src="../../../assets/ecomFour.png" class="carousel-image d-block w-100 card-img-top" alt="...">
+              <img src="../../../assets/ecomFour.png" class="carousel-image d-block w-100 card-img-top" alt="E-Commerce Screenshot 4">
             </div>
           </div>
           <button class="carousel-control-prev" type="button" data-bs-target="#carouselEcom" data-bs-slide="prev">
@@ -31,36 +32,40 @@
           </button>
         </div>
         <div class="card-body d-flex flex-column">
-          <h5 class="card-title">E-Commerce Web App</h5>
-          <p class="card-text text-muted">
-            Full-stack e-commerce application built with Angular and Spring Boot.
-            Features REST API backend, responsive UI, and Dockerized deployment on AWS EC2.
+          <h5 class="card-title fw-bold">E-Commerce Web App</h5>
+          <div class="mb-2">
+            <span class="badge bg-primary-subtle text-primary border border-primary-subtle">Angular</span>
+            <span class="badge bg-primary-subtle text-primary border border-primary-subtle">Spring Boot</span>
+            <span class="badge bg-secondary-subtle text-secondary border border-secondary-subtle">AWS EC2</span>
+            <span class="badge bg-secondary-subtle text-secondary border border-secondary-subtle">Docker</span>
+          </div>
+          <p class="card-text text-muted small">
+            Full-stack e-commerce application featuring a REST API backend, responsive user interface, and containerized deployment on AWS EC2.
           </p>
-
-          <div class="mt-auto d-flex gap-2">
-            <a href="http://3.139.218.123/products" target="_blank" class="btn btn-primary btn-sm">Live</a>
+          <div class="mt-auto d-flex gap-2 pt-3">
+            <button class="btn btn-primary btn-sm disabled">Live</button>
             <a href="https://github.com/duendeGlizzy/E-commerce-Web-Application/tree/working" target="_blank" class="btn btn-outline-secondary btn-sm">Code</a>
           </div>
         </div>
       </div>
     </div>
 
-    <!-- Project Card -->
+    <!-- Project Card: Island Prototype -->
     <div class="col-md-4">
       <div class="card h-100 shadow-sm border-0">
         <div id="carouselIsland" class="carousel slide">
           <div class="carousel-inner">
             <div class="carousel-item active">
-              <img src="../../assets/Island-site.png" class="carousel-image d-block w-100 card-img-top" alt="...">
+              <img src="../../assets/Island-site.png" class="carousel-image d-block w-100 card-img-top" alt="Island Prototype Screenshot 1">
             </div>
             <div class="carousel-item">
-              <img src="../../assets/Island-siteTwo.png" class="carousel-image d-block w-100 card-img-top" alt="...">
+              <img src="../../assets/Island-siteTwo.png" class="carousel-image d-block w-100 card-img-top" alt="Island Prototype Screenshot 2">
             </div>
             <div class="carousel-item">
-              <img src="../../assets/Island-siteThree.png" class="carousel-image d-block w-100 card-img-top" alt="...">
+              <img src="../../assets/Island-siteThree.png" class="carousel-image d-block w-100 card-img-top" alt="Island Prototype Screenshot 3">
             </div>
             <div class="carousel-item">
-              <img src="../../assets/Island-siteFour.png" class="carousel-image d-block w-100 card-img-top" alt="...">
+              <img src="../../assets/Island-siteFour.png" class="carousel-image d-block w-100 card-img-top" alt="Island Prototype Screenshot 4">
             </div>
           </div>
           <button class="carousel-control-prev" type="button" data-bs-target="#carouselIsland" data-bs-slide="prev">
@@ -72,14 +77,16 @@
             <span class="visually-hidden">Next</span>
           </button>
         </div>
-
         <div class="card-body d-flex flex-column">
-          <h5 class="card-title">Island Page Prototype</h5>
-          <p class="card-text text-muted">
-            A static tourist information site prototype for a fictional island. built with html and css.
+          <h5 class="card-title fw-bold">Island Page Prototype</h5>
+          <div class="mb-2">
+            <span class="badge bg-danger-subtle text-danger border border-danger-subtle">HTML5</span>
+            <span class="badge bg-info-subtle text-info border border-info-subtle">CSS3</span>
+          </div>
+          <p class="card-text text-muted small">
+            A static tourist information site prototype for a fictional island destination, focusing on semantic markup and responsive layout design.
           </p>
-
-          <div class="mt-auto d-flex gap-2">
+          <div class="mt-auto d-flex gap-2 pt-3">
             <a href="https://duendeglizzy.github.io/wguD479prototype/index.html" target="_blank" class="btn btn-primary btn-sm">Live</a>
             <a href="https://github.com/duendeGlizzy/wguD479prototype" target="_blank" class="btn btn-outline-secondary btn-sm">Code</a>
           </div>
@@ -87,27 +94,25 @@
       </div>
     </div>
 
-    <!-- Project Card -->
+    <!-- Project Card: JobBoard -->
     <div class="col-md-4">
       <div class="card h-100 shadow-sm border-0">
-
-
         <div id="carouselJob" class="carousel slide">
           <div class="carousel-inner">
             <div class="carousel-item active">
-              <img src="../../assets/JobBoard.png" class="carousel-image d-block w-100 card-img-top" alt="...">
+              <img src="../../assets/JobBoard.png" class="carousel-image d-block w-100 card-img-top" alt="JobBoard Screenshot 1">
             </div>
             <div class="carousel-item">
-              <img src="../../assets/JobBoardTwo.png" class="carousel-image d-block w-100 card-img-top" alt="...">
+              <img src="../../assets/JobBoardTwo.png" class="carousel-image d-block w-100 card-img-top" alt="JobBoard Screenshot 2">
             </div>
             <div class="carousel-item">
-              <img src="../../assets/JobBoardThree.png" class="carousel-image d-block w-100 card-img-top" alt="...">
+              <img src="../../assets/JobBoardThree.png" class="carousel-image d-block w-100 card-img-top" alt="JobBoard Screenshot 3">
             </div>
             <div class="carousel-item">
-              <img src="../../assets/JobBoardFour.png" class="carousel-image d-block w-100 card-img-top" alt="...">
+              <img src="../../assets/JobBoardFour.png" class="carousel-image d-block w-100 card-img-top" alt="JobBoard Screenshot 4">
             </div>
             <div class="carousel-item">
-              <img src="../../assets/JobBoardFive.png" class="carousel-image d-block w-100 card-img-top" alt="...">
+              <img src="../../assets/JobBoardFive.png" class="carousel-image d-block w-100 card-img-top" alt="JobBoard Screenshot 5">
             </div>
           </div>
           <button class="carousel-control-prev" type="button" data-bs-target="#carouselJob" data-bs-slide="prev">
@@ -119,27 +124,104 @@
             <span class="visually-hidden">Next</span>
           </button>
         </div>
-
-
-
         <div class="card-body d-flex flex-column">
-          <h5 class="card-title">JobBoard</h5>
-          <p class="card-text text-muted">
-            A full-stack job board application built with Java, Spring Boot, and Thymeleaf. The platform allows users to register and log in, browse job listings, save postings for later, and apply directly through the system. It features server-side rendering with Thymeleaf, secure authentication, and a structured MVC architecture using Spring Boot for scalable backend development.
+          <h5 class="card-title fw-bold">JobBoard</h5>
+          <div class="mb-2">
+            <span class="badge bg-primary-subtle text-primary border border-primary-subtle">Java</span>
+            <span class="badge bg-primary-subtle text-primary border border-primary-subtle">Spring Boot</span>
+            <span class="badge bg-success-subtle text-success border border-success-subtle">Thymeleaf</span>
+            <span class="badge bg-secondary-subtle text-secondary border border-secondary-subtle">Railway</span>
+          </div>
+          <p class="card-text text-muted small">
+            Full-stack job portal with authentication, role-based job applications, and server-side rendering using Spring MVC and Thymeleaf architecture.
           </p>
-
-          <div class="mt-auto d-flex gap-2">
+          <div class="mt-auto d-flex gap-2 pt-3">
             <a href="https://job-portal-production-0ed6.up.railway.app/" target="_blank" class="btn btn-primary btn-sm">Live</a>
             <a href="https://github.com/duendeGlizzy/Job-Portal" target="_blank" class="btn btn-outline-secondary btn-sm">Code</a>
           </div>
         </div>
       </div>
+    </div>
 
+  </div>
+
+  <!-- Real World Production Projects Section -->
+  <div class="my-5 pt-4">
+    <h2 class="text-center mb-4 fw-bold">Real World Production Projects</h2>
+
+    <div class="card shadow border-0 overflow-hidden">
+      <div class="row g-0 align-items-center">
+        <!-- Carousel Column -->
+        <div class="col-lg-6">
+          <div id="carouselCarpenters" class="carousel slide">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="/assets/carpentersScreenShot1.png" class="d-block w-100 img-fluid" alt="Carpenters LLC Screenshot 1">
+              </div>
+              <div class="carousel-item">
+                <img src="/assets/carpentersScreenShot2.png" class="d-block w-100 img-fluid" alt="Carpenters LLC Screenshot 2">
+              </div>
+              <div class="carousel-item">
+                <img src="/assets/carpentersScreenShot3.png" class="d-block w-100 img-fluid" alt="Carpenters LLC Screenshot 3">
+              </div>
+              <div class="carousel-item">
+                <img src="/assets/carpentersScreenShot4.png" class="d-block w-100 img-fluid" alt="Carpenters LLC Screenshot 3">
+              </div>
+              <div class="carousel-item">
+                <img src="/assets/carpentersScreenShot5.png" class="d-block w-100 img-fluid" alt="Carpenters LLC Screenshot 3">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselCarpenters" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselCarpenters" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+
+        <!-- Content Column -->
+        <div class="col-lg-6">
+          <div class="card-body p-4 p-md-5 d-flex flex-column h-100">
+            <div class="d-flex justify-content-between align-items-center mb-2">
+              <h3 class="card-title fw-bold mb-0">Job Tracker & Corporate Website</h3>
+              <span class="badge bg-success">Production</span>
+            </div>
+
+            <!-- Tech Badges -->
+            <div class="mb-3 d-flex flex-wrap gap-1">
+              <span class="badge bg-primary">Angular</span>
+              <span class="badge bg-primary">Spring Boot</span>
+              <span class="badge bg-dark">MySQL (AWS RDS)</span>
+              <span class="badge bg-warning text-dark">AWS Elastic Beanstalk</span>
+              <span class="badge bg-warning text-dark">AWS Amplify</span>
+              <span class="badge bg-warning text-dark">AWS S3</span>
+              <span class="badge bg-info text-dark">MS Graph API</span>
+              <span class="badge bg-danger">JWT Security</span>
+            </div>
+
+            <p class="card-text text-muted">
+              An end-to-end cloud platform built for contracting businesses. Combines an internal administrative engine for job tracking, financial metrics, and tax calculations with a corporate customer-facing portal for online service requests and invoices.
+            </p>
+
+            <h6 class="fw-bold mt-2 mb-2">Key Features:</h6>
+            <ul class="list-unstyled text-muted small mb-4">
+              <li class="mb-1"><strong>• Customer-Facing Portal:</strong> Enables clients to browse service offerings, request quotes, and submit invoice inquiries directly.</li>
+              <li class="mb-1"><strong>• Admin Operations Portal:</strong> Role-based access control for automated balance calculations, job status management, and expense categorizations.</li>
+              <li class="mb-1"><strong>• Stateless Security:</strong> Spring Security with JWT token lifecycle management.</li>
+              <li class="mb-1"><strong>• In-App Messaging:</strong> Automated notification emails via Microsoft Graph API integration.</li>
+            </ul>
+
+            <div class="mt-auto d-flex gap-2">
+              <a href="https://carpentersllc.com" target="_blank" class="btn btn-primary">Visit Live Site</a>
+              <button class="btn btn-outline-secondary disabled" title="Proprietary codebase">Private Repository</button>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 
-
-
-
 </div>
-

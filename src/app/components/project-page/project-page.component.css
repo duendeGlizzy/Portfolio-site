@@ -1,4 +1,18 @@
-.carousel-image{
-  height: 250px;
-  object-fit: cover;
+/* Uniform dimensions for all carousel screenshots */
+.carousel-image {
+  height: 250px;           /* Set standard fixed height across all cards */
+  width: 100%;             /* Stretch across full card width */
+  object-fit: cover;       /* Maintain aspect ratio by cropping extra space */
+  object-position: top;    /* Align focus to the top header/nav of the app */
 }
+
+/* Optional: Higher height for the featured production card on large screens */
+@media (min-width: 992px) {
+  .featured-carousel-image {
+    height: 400px;
+    width: 100%;
+    object-fit: cover;
+    object-position: top;
+  }
+}
+
